@@ -5,99 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="styles/bootstrap.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body id="login-page">
     <nav class="navbar navbar-inverse">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Weconnect</a>
+                <a class="navbar-brand" href="#">WeConnect</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="home.html">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="index.html">
-                            <i class="glyphicon glyphicon-log-out"></i> Logout</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-
-
-
-    <div class="container">
-        <h3>Register here</h3>
-        <form>
-            <div class="form-group">
-
-                <label for="exampleInputPassword1">Business Name</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-            </div>
-             
-            <div class="form-group">
-                    <label for="exampleInputPassword1">email</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="home.html">Home</a>
+                     
+                    </ul>
                 </div>
-            <div class="form-group">
-                    <form class="form-inline">
+        </div>
+
+    </nav>
+    <div class="container">
+
+        <div class="row login-page-contents">
+            <div class="col-8 col-md8 col-lg-8">
+
+
+            </div>
+            <div class="container3">
+                <div class="row">
+
+
+                    <div class="col-8 col-md8 col-lg-8">
+
+                        <a href="businessprofile.html" class="thumbnail1">
+                            <img src="./img/bin.jpg" alt="..." style="width:500x; height:100x;" padding:10%;>
+                        </a>
+                    </div>
+
+
+
+                    <div class="col-4 col-md-4 col-lg-4">
+                        <h3>Register Business</h3>
+                        <form>
                             <div class="form-group">
-                                <select class="form-control">
-                                        <option value="categories">location</option>
-                                        <option>location1</option>
-                                        <option>location2</option>
-                                        <option>location3</option>
-                                        <option>location4</option>
-                                        <option>location5</option>
+                                <label for="exampleInputEmail1">Business Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1"> Email</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                            </div>
+
+
+
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option value="categories">serch by Category</option>
+                                        <option>Category1</option>
+                                        <option>Category2</option>
+                                        <option>Category3</option>
+                                        <option>Category4</option>
+                                        <option>Category5</option>
                                     </select>
-            </div>
-         
-            
-            <div class="form-group">
-                <label for="exampleInputPassword1">email</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">mobile</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-            </div>
 
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox"> Remember me
-                </label>
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-            <a href="./register.html">login</a>
-        </form>
-        
-        <!-- all content here -->
-    </div>
-    description
-    <textarea class="form-control" rows="3"></textarea>
-    
 
-    <script src="js/bootstrap.js"></script>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">country</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                                    </div>
+                                    Description
+                                    <input type="text" class="form-control" placeholder="Text input">
+
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> 
+                                        </label>
+                                    </div>
+
+                                    <a href="businessprofile.html" class="btn btn-default">submit</a>
+                                   
+                            </form>
+                            </div>
+                    </div>
+                </div>
+
+
+
+                <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
