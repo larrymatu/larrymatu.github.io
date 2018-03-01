@@ -1,0 +1,77 @@
+.navbar-brand {
+    background-color:(9,9,9,9,0.24);
+    font-size: 50px;
+}
+
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+
+.navbar-inverse {
+    background-color:(9,9,9,9,0.24) !important;
+
+}
+
+#login-page {
+    background-image: url('../img/logo.jpg');
+}
+
+.form-group {
+    margin-top: 16px !important;
+    color: white;
+    width: 70% !important;
+}
+
+.card {
+    background: rgba(0,0,0,0.3);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.checkbox {
+    color: white;
+    font-size: 14px;
+}
+
+.container {
+    font-size: 30;
+    color: orange;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-indent: bold;
+
+}
+
+.dropdown {
+    background-color: indigo
+}
+
+.container1 {
+    color: rgb(53, 209, 230);
+
+}
+
+.login-page-contents{
+    padding-top: 20vh;
+
+}
+
+.card-details {
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    color: #999999;
+    margin: 0;
+}
+.jumbotron{
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
